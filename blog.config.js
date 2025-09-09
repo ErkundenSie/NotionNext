@@ -1,10 +1,10 @@
 // 注: process.env.XX是Vercel的环境变量，配置方式见：https://docs.tangly1024.com/article/how-to-config-notion-next#c4768010ae7d44609b744e79e2f9959a
 
 const BLOG = {
-  // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/67696b5168cd4c00b5ea4105b2fb5508
+  // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/26953510f9438163913afb09d1ef0974
   NOTION_PAGE_ID:
     process.env.NOTION_PAGE_ID ||
-    '67696b5168cd4c00b5ea4105b2fb5508,en:67696b5168cd4c00b5ea4105b2fb5508',
+    '26953510f9438163913afb09d1ef0974,en:26953510f9438163913afb09d1ef0974',
   THEME: process.env.NEXT_PUBLIC_THEME || 'simple', // 当前主题，在themes文件夹下可找到所有支持的主题；主题名称就是文件夹名，例如 example,fukasawa,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
   LANG: process.env.NEXT_PUBLIC_LANG || 'zh-CN', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
   SINCE: process.env.NEXT_PUBLIC_SINCE || 2021, // e.g if leave this empty, current year will be used.
